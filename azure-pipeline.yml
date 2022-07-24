@@ -65,7 +65,7 @@ steps:
         cd kubernetes-goat
         bash setup-kubernetes-goat.sh
         sleep 20s
-        kubectl get pods -w
+        kubectl get pods 
   displayName: 'Setting up vulnerable kubernetes-goat'        
 
 - script: |
